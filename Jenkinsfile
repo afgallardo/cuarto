@@ -11,7 +11,7 @@ pipeline{
            steps {
                 sh '''
 			bash -c "echo "Compilando Codigo Fuente""
-			bash -c "gcc /var/lib/jenkins/workspace/pipeline-con-jenkinsfile-desde-repositorio-apc/fuente.c -o /tmp/binario"
+			bash -c "gcc /var/lib/jenkins/workspace/pipeline-con-jenkinsfile-desde-repositorio/fuente.c -o /tmp/binario"
 		   '''
            }
         }
